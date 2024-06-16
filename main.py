@@ -46,8 +46,8 @@ class Segment(BaseModel):
     # represent a video segment
     start_time: float = Field(..., description="The start time in seconds")
     end_time: float = Field(..., description="The end time in seconds")
-    yt_title: str = Field(..., description="The YouTube title to make this subtopic go viral")
-    description: str = Field(..., description="The detailed youtube description to make this segment go viral")
+    yt_title: str = Field(..., description="The video title to clearly understand the subtopic")
+    description: str = Field(..., description="The detailed video description to provide a clear summary")
     duration: int = Field(..., description="The duration of the segmnent in seconds")
 
 class VideoTranscript(BaseModel):
