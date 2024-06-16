@@ -38,7 +38,7 @@ prompt = f"""Provided to you is a transcript of a video. Please identify all seg
 \n Here is the transcription : \n {transcript}"""
 
 messages = [
-    {"role": "system", "content": "You are a viral content producer. You are a master at reading youtube transcripts and identifying the most intriguing content. You have extraordinary skilles to extract subtopic content. Your subtopics can be repurposed as separate videos."},
+    {"role": "system", "content": "You are a business analyst. You are a master at reading youtube transcripts and understanding the context of complex health insurance industry business processes. You have extraordinary skills to extract subtopic content. Your subtopics can be repurposed as separate videos."},
     {"role": "user", "content": prompt}
 ]
 
